@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(253, 251, 251);
+    color: rgb(14, 13, 13);
+    font-size: 14px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    color: #006400;
+}
+
+.btn-block {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#overview {
+    text-align: left;
+    width: 55%;
+    margin: auto;
+}
+
+.login-form {
+    border: #778899 solid 1px;
+    border-radius: 25px;
+    width: 65%;
+    margin: 50px auto 10px auto;
+    padding-bottom: 10px;
+}
+
+.form-control {
+    width: 50%;
+    margin: auto;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 5px;
+}
