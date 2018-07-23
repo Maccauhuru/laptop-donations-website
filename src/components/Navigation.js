@@ -28,7 +28,7 @@ export default class Example extends React.Component {
   }
   render() {
     return (
-      <div className="nav-component">
+      < div className = "text-white">
         <Navbar color="dark" dark expand="md">
           <NavbarBrand href="/">Laptop-Donations.Org</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
