@@ -1,30 +1,29 @@
-import React from 'react';
-import { Form, Input , FormGroup ,Label , Button } from 'reactstrap';
+import React from 'react'
 
-const HeroOptions= () => {
-  return (
-    <div className="bg-dark text-white">
-    <div className="row-hl d-flex justify-content-around">
-      <div className="p-5 item-hl">
-    <Form>
-        <FormGroup>
-          <Label for="chooseaction">Step 1</Label>
-          <span><Input type="text" name="choose" id="chooseaction" placeholder="I want to" disabled/>
-        <Input type="select">
-          <option value="donate">Donate</option>
-          <option value="receive">Receive</option>
-        </Input>
-        </span>
-        </FormGroup>
-    </Form>
-      </div>
-      <div className="p-5 item-hl">
-          <Form>
-        <FormGroup>
-          <Label for="chooselocation">Step 2</Label>
-          <span><Input type="text" name="chooselocation" id="chooselocation" placeholder="I live in" disabled/>
-        <Input type="select">
-    <option value="AL">Alabama</option>
+const HeroOptions=() => {
+	return (
+		<div class="container">
+		<div class="row">
+		<div class="col-md-4">
+		        <label for="step1" class="ml-5">Step 1</label>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text bg-dark text-white">I Want To</span>
+            </div>
+ 		<select>
+  <option value="donate">Donate A Laptop</option>
+  <option value="saab">Receive A Laptop</option>
+</select>
+        </div>
+		</div>
+		<div class="col-md-4">
+		        <label for="step2" class="ml-5">Step 2</label>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text bg-dark text-white">I Live In</span>
+            </div>
+ 		<select>
+<option value="AL">Alabama</option>
 	<option value="AK">Alaska</option>
 	<option value="AZ">Arizona</option>
 	<option value="AR">Arkansas</option>
@@ -75,19 +74,25 @@ const HeroOptions= () => {
 	<option value="WV">West Virginia</option>
 	<option value="WI">Wisconsin</option>
 	<option value="WY">Wyoming</option>
-        </Input>
-        </span>
-        </FormGroup>
-    </Form>
-      
-      </div>
-      <div className="p-2 item-hl">
-      <Button className="mx-auto mt-5 p-auto" color="success" size="lg">Start
-      </Button>
-      </div>
-    </div>
-    </div>
-  )
+</select>
+        </div>
+		</div>
+		<div class="col-md-4">
+						<div>
+						<label for="step1" class="ml-5">Step 3</label>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="btn bg-dark btn-md btn-outline-light text-white pl-5 pr-5">START</span>
+            </div>
+						</div>
+						
+		</div>
+
+	
+		</div>
+		</div>
+		</div>
+	)
 }
 
 export default HeroOptions;
