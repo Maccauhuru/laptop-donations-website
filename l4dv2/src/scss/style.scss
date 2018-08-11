@@ -1,0 +1,24 @@
+//primary colors
+$primary: #2F4F4F;
+$primary-overlay:rgba(127, 255, 0, 0.8);
+
+//custom variations
+$oliveDrab:#6B8E23;
+
+
+body {
+    margin-top: 105px;
+  
+
+}
+
+.navbar {
+    box-shadow: 2px 2px 5px $primary;
+    opacity: 0.9;
+    background-color: $oliveDrab;
+    .nav-item {
+        font-size: 1.4rem;
+        padding-right: 1.4rem;
+        
+    }
+}
