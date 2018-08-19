@@ -4,12 +4,11 @@ $primary-overlay:rgba(127, 255, 0, 0.8);
 
 //custom variations
 $oliveDrab:#6B8E23;
+$slateGrey: #2F4F4F;
 
 
 body {
     margin-top: 105px;
-  
-
 }
 
 .navbar {
@@ -21,4 +20,55 @@ body {
         padding-right: 1.4rem;
         
     }
+}
+.showcase {
+    min-height: 350px;
+    position: relative;
+    background: $oliveDrab;
+}
+
+.latest {
+    background: $slateGrey;
+    color: #fff;
+    min-height: 500px;
+    text-align: center;
+}
+
+#latest-donor {
+    .donor-card {
+        img {
+            margin-top: -50px;
+        }
+        .card:hover {
+            background: $primary;
+            color: #000;
+        }
+    }
+}
+
+#faq {
+    min-height : 350px;
+    background: $oliveDrab;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+#join-for-free {
+    min-height: 400px;
+    background: #2F4F4F;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#footer {
+    min-height : 450px;
+
+    .footer-heading {
+        text-align: center;
+        font-size: 30px;
+        color : $slateGrey;
+    }
+
 }

@@ -8,3 +8,40 @@ body {
   .navbar .nav-item {
     font-size: 1.4rem;
     padding-right: 1.4rem; }
+
+.showcase {
+  min-height: 350px;
+  position: relative;
+  background: #6B8E23; }
+
+.latest {
+  background: #2F4F4F;
+  color: #fff;
+  min-height: 500px;
+  text-align: center; }
+
+#latest-donor .donor-card img {
+  margin-top: -50px; }
+#latest-donor .donor-card .card:hover {
+  background: #2F4F4F;
+  color: #000; }
+
+#faq {
+  min-height: 350px;
+  background: #6B8E23;
+  color: white;
+  text-align: center;
+  font-size: 30px; }
+
+#join-for-free {
+  min-height: 400px;
+  background: #2F4F4F;
+  color: whitesmoke;
+  text-align: center; }
+
+#footer {
+  min-height: 450px; }
+  #footer .footer-heading {
+    text-align: center;
+    font-size: 30px;
+    color: #2F4F4F; }
