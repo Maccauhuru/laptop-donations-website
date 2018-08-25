@@ -1,10 +1,10 @@
 body {
-  margin-top: 105px; }
+  margin-top: 100px; }
 
 .navbar {
   box-shadow: 2px 2px 5px #2F4F4F;
   opacity: 0.9;
-  background-color: #6B8E23; }
+  background-color: #2F4F4F; }
   .navbar .nav-item {
     font-size: 1.4rem;
     padding-right: 1.4rem; }
@@ -15,7 +15,7 @@ body {
   background: #6B8E23; }
 
 .latest {
-  background: #2F4F4F;
+  background: #fff;
   color: #fff;
   min-height: 500px;
   text-align: center; }
@@ -45,3 +45,11 @@ body {
     text-align: center;
     font-size: 30px;
     color: #2F4F4F; }
+
+.label-text {
+  font-size: 25px; }
+  .label-text p {
+    margin-left: 5px; }
+
+.showcase-heading {
+  font-size: 30px; }
