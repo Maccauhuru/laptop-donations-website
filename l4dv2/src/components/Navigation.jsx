@@ -2,7 +2,7 @@ import React from 'react'
 
 export default () => {
   return (
-      <header>
+      <header id="home">
           <nav className="navbar navbar-expand-md navbar-light fixed-top py-4">
         <div className="container">
             <a href="#home" className="navbar-brand text-white">
@@ -20,7 +20,7 @@ export default () => {
                         <a href="#faq" className="nav-link text-white">FAQ</a>
                     </li>
                     <li className="nav-item">
-                        <a href="#contact" className="nav-link text-white">Contact</a>
+                        <a href="#join-for-free" className="nav-link text-white">Contact</a>
                     </li>
                     <li className="nav-item d-none d-lg-block">
                         <a className="nav-link text-white">|</a>

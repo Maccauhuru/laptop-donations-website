@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Accordion from '../components/Accordion';
 
 const Faq = () => {
   return (
-      <section id="faq" className="py-5">
+      <section id="faq">
           <div>
-      <p>Frequently Asked Questions</p>
+      <p className="h2">Frequently Asked Questions</p>
+      <Accordion />
     </div>
       </section>
 

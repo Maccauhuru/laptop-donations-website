@@ -27,16 +27,16 @@ body {
   color: #000; }
 
 #faq {
-  min-height: 350px;
+  min-height: 220px;
   background: #6B8E23;
-  color: white;
+  color: #fff;
   text-align: center;
   font-size: 30px; }
 
 #join-for-free {
   min-height: 400px;
   background: #2F4F4F;
-  color: whitesmoke;
+  color: #fff;
   text-align: center; }
 
 #footer {
@@ -53,3 +53,7 @@ body {
 
 .showcase-heading {
   font-size: 30px; }
+
+.faq-text {
+  color: #fff;
+  font-size: 1rem; }
