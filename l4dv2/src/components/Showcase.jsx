@@ -3,9 +3,9 @@ import Hero from './Hero-Options';
 
 const Showcase = () =>{
     return (
-        <section id="showcase-section" className="showcase py-5">
+        <section id="showcase-section" className="showcase py-3">
             <div>
-                <p className="lead pb-5 text-white text-center showcase-heading">The sharing and receiving process only takes <strong>3</strong> simple steps.</p>
+                <p className="lead text-center">Getting started only takes <strong>3</strong> simple steps.</p>
                     <Hero />
             </div>
         </section>

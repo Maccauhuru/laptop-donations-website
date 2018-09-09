@@ -4,7 +4,7 @@ import Donor from './Donor';
 const LatestDonor= () => {
   return (
       <section id="latest-donor" className="latest py-5">
-      <h3>Latest Donations Activity</h3>
+      <h3 className = "text-dark">Latest Donations Activity</h3>
       <div className="container">
       <div className="row">
       <div className="col-md-4"><Donor /></div>

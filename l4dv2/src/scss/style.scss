@@ -2,9 +2,11 @@
 $primary: #2F4F4F;
 $primary-overlay:rgba(127, 255, 0, 0.8);
 $primaryWhite : #fff;
+$primaryBlack : #000;
 //custom variations
 $oliveDrab:#6B8E23;
 $slateGrey: #2F4F4F;
+
 body {
     margin-top: 100px;
 }
@@ -13,6 +15,7 @@ body {
     box-shadow: 2px 2px 5px $primary;
     opacity: 0.9;
     background-color: $slateGrey;
+
     .nav-item {
         font-size: 1.4rem;
         padding-right: 1.4rem;
@@ -20,14 +23,13 @@ body {
 }
 
 .showcase {
-    min-height: 350px;
+    min-height: 300px;
     position: relative;
     background: $oliveDrab;
 }
 
 .latest {
-    background:$primaryWhite;
-    ;
+    background: $primaryWhite;
     color: $primaryWhite;
     min-height: 500px;
     text-align: center;
@@ -38,9 +40,10 @@ body {
         img {
             margin-top: -50px;
         }
+
         .card:hover {
             background: $primary;
-            color: #000;
+            color: $primaryBlack;
         }
     }
 }
@@ -62,6 +65,7 @@ body {
 
 #footer {
     min-height: 450px;
+
     .footer-heading {
         text-align: center;
         font-size: 30px;
@@ -71,15 +75,17 @@ body {
 
 .label-text {
     font-size: 25px;
+
     p {
         margin-left: 5px;
     }
 }
 
 .showcase-heading {
-    font-size:30px;
+    font-size: 30px;
 }
+
 .faq-text {
-    color:$primaryWhite;
+    color: $primaryWhite;
     font-size: 1rem;
 }
