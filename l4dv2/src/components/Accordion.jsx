@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Accordion = () => {
-  return (<section>
+    return (<section>
 <div id="accordion">
   <div className="card bg-dark">
     <div className="card-header" id="headingOne">

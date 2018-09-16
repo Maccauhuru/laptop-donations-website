@@ -1,14 +1,29 @@
 //primary colors
 $primary: #2F4F4F;
-$primary-overlay:rgba(127, 255, 0, 0.8);
+$primary-overlay:rgba(107, 142, 35, 0.8);
 $primaryWhite : #fff;
 $primaryBlack : #000;
+
 //custom variations
+$lightGreen: #7ed56f;
+$mediumGreen: #55c57a;
+$darkGreen: #28b485;
 $oliveDrab:#6B8E23;
 $slateGrey: #2F4F4F;
 
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
 body {
     margin-top: 100px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: $primaryWhite;
 }
 
 .navbar {
@@ -22,10 +37,27 @@ body {
     }
 }
 
+#header {
+    height:90vh;
+    background-image: url(../img/mountains-3187581_1920.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    .header-overlay {
+        background: $primary-overlay;
+        position: absolute;
+        top: 0.0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
 .showcase {
     min-height: 300px;
     position: relative;
     background: $oliveDrab;
+    border: 1px solid $primaryWhite;
 }
 
 .latest {
