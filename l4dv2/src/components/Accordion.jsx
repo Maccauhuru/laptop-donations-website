@@ -2,24 +2,24 @@ import React from 'react';
 
 const Accordion = () => {
     return (<section>
-<div id="accordion">
-  <div className="card bg-dark">
-    <div className="card-header" id="headingOne">
-      <h5 className="mb-0">
-        <div data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          <i className="fas fa-question-circle mr-2"></i>What is the purpose of this website
-        </div>
-      </h5>
-    </div>
+        <div id="accordion">
+            <div className="card bg-dark">
+                <div className="card-header" id="headingOne">
+                    <h5 className="mb-0">
+                        <div data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <i className="fas fa-question-circle mr-2"></i>What is the purpose of this website
+                        </div>
+                    </h5>
+                </div>
 
-    <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-      <div className="card-body faq-text">
+                <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div className="card-body faq-text">
         Objectively innovate empowered manufactured products whereas parallel platforms.Holisticly predominate extensible testing procedures
         for reliable supply chains.Completely synergize resource taxing relationships via premier niche markets.Professionally cultivate one - to - one customer service with robust ideas.Dynamically innovate resource - leveling customer service
         for state of the art customer serviceCompletely synergize resource taxing relationships via premier niche markets.Professionally cultivate one - to - one customer service with robust ideas.Dynamically innovate resource - leveling customer service
         for state of the art customer service
-      </div>
-    </div>
+                    </div>
+                </div>
   </div>
   <div className="card bg-dark">
     <div className="card-header" id="headingTwo">
