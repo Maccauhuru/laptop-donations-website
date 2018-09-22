@@ -1,3 +1,4 @@
+/* global require */
 import React from "react";
 import Donor from "./Donor";
 
