@@ -9,7 +9,7 @@ import Join from "./JoinForFree";
 import Footer from "./Footer";
 class App extends Component {
     render() {
-        return (<div>
+        return (<div className="bg-dark">
             <Header />
             <Navigation />
             <Showcase />

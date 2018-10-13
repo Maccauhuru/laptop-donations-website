@@ -6,7 +6,7 @@ import Donor from "./Donor";
 const LatestDonor= () => {
  
     return (
-        <section id="latest-donor" className="latest py-5">
+        <section id="latest-donor" className="container latest py-5">
             <h3 className = "text-dark">Latest Donations Activity</h3>
             <div className="container">
                 <div className="row">

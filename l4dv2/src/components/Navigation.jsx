@@ -3,7 +3,7 @@ import React from "react";
 const Navigation = () => {
     return (
         <header id="home">
-            <nav className="navbar navbar-expand-md navbar-light fixed-top py-4">
+            <nav className="navbar navbar-expand-md navbar-light fixed-top container py-4">
                 <div className="container">
                     <a href="#home" className="navbar-brand text-white">
                         <h3 className="d-inline align-middle">Laptop-Donations.Org</h3>

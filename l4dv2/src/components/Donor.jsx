@@ -2,7 +2,7 @@
 import React from "react";
 
 const Donor = () => {
-    return (<div className="card mt-5 text-dark">
+    return (<div className="card mt-5 text-dark container">
         <div className="card-body">
             <img src={require("../img/person3.jpg")} alt="" className="img-fluid rounded-circle w-50 mb-3" />
             <h3>James Frost</h3>

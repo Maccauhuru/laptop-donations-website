@@ -1,7 +1,7 @@
 import React from "react";
 
 const DonationReasons =() => {
-    return (<section id="boxes" className="py-5 bg-dark">
+    return (<section id="boxes" className="py-5 bg-dark container">
         <div className="container">
             <div className="row">
                 <div className="col-md-3">

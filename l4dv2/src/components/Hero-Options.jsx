@@ -11,9 +11,9 @@ const Hero =() => {
                         <p>Choose to be a donor or receiver</p>
                         <div className = "input-group">
                             <div className = "input-group-prepend">
-                                <div className = "input-group-text bg-dark text-white ml-5"> I Want To </div></div>
+                                <div className = "input-group-text bg-success text-white ml-5"> I Want To </div></div>
                             <select>
-                                <option value="donate"> Donate A Laptop </option><option value = "saab" > Receive A Laptop </option></select> 
+                                <option value="donate">Donate A Laptop</option><option value = "saab">Receive A Laptop</option></select> 
                         </div>
                     </div>
                     <div className="col-md-4 mb-4 text-center mx-auto">
@@ -22,7 +22,7 @@ const Hero =() => {
                         <p>Choose a location</p>
                         <div className = "input-group">
                             <div className = "input-group-prepend">
-                                <div className = "input-group-text bg-dark text-white ml-5"> I Live In </div></div>
+                                <div className = "input-group-text bg-success text-white ml-5"> I Live In </div></div>
                             <select>
                                 <option value="AL">Alabama</option>
                                 <option value="AK">Alaska</option>
@@ -82,7 +82,7 @@ const Hero =() => {
                         <i className="fa fa-user-plus fa-4x"></i>
                         <h3>Step Three</h3>
                         <p>Proceed to complete application</p>
-                        <div><input type="button" className="btn btn-dark text-white btn-block" value="Submit"/></div>
+                        <div><input type="button" className="btn btn-success text-white btn-block" value="Submit"/></div>
                     </div>
                 </div>
             </div>

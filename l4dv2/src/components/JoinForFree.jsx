@@ -3,13 +3,13 @@ import React, { Component } from "react";
 class JoinForFree extends Component {
     render() {
         return (
-            <section id="join-for-free" className="join-for-free py-5">
+            <section id="join-for-free" className="join-for-free py-5 container">
                 <div>
                     <h1>Join For Free Today!</h1>
                     <div className="container">
                         <div className="row">
                             <div className="col-md-6">
-                                <div className="btnContainer">
+                                <div className="btnContainer container">
                                     <div className="googleBtn">
                                         <button className="btn btn-lg btn-danger btn-block mb-4 mt-4"><i className="fab fa-google-plus-g mr-5"></i>Sign up with Google+</button>
                                     </div>
