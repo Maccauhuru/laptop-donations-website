@@ -1,21 +1,3 @@
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
-html {
-  background-color: #343a40; }
-
-body {
-  margin-top: 100px;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.7;
-  color: #fff; }
-
 .navbar {
   box-shadow: 2px 2px 5px #2F4F4F;
   opacity: 0.9;
@@ -56,66 +38,39 @@ body {
     font-weight: 300;
     letter-spacing: .4rem; }
 
-.showcase {
-  min-height: 300px;
-  position: relative;
-  background: #6B8E23; }
-
-.latest {
-  background: #fff;
-  color: #fff;
-  min-height: 500px;
-  text-align: center; }
-
-#latest-donor {
-  border: 1px solid #6B8E23; }
-  #latest-donor .donor-card img {
-    margin-top: -50px; }
-  #latest-donor .donor-card .card:hover {
-    background: #2F4F4F;
-    color: #000; }
-
-#boxes {
-  border: solid 1px #6B8E23; }
-
-#faq {
-  min-height: 220px;
-  background: #343a40;
-  color: #fff;
-  text-align: center;
-  font-size: 30px;
-  width: 100%;
-  border: solid 1px #6B8E23; }
-
-#join-for-free {
-  min-height: 300px;
-  background: #2F4F4F;
-  color: #fff;
-  text-align: center; }
-  #join-for-free .form-control {
-    height: 45px; }
-
-#footer {
-  min-height: 200px; }
-  #footer .footer-heading {
-    text-align: center;
-    font-size: 30px;
-    color: #2F4F4F; }
+body {
+  margin-top: 6.25rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.7; }
 
 .label-text {
-  font-size: 25px; }
+  font-size: 1.5625rem; }
   .label-text p {
-    margin-left: 5px; }
+    margin-left: 0.3125rem; }
 
 .showcase-heading {
-  font-size: 30px; }
+  font-size: 1.875rem; }
 
 .faq-text {
   color: #fff;
   font-size: 1rem; }
 
-.btn:link,
-.btn:visited {
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  background-color: #343a40; }
+
+body {
+  color: #fff; }
+
+.btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
   padding: 1rem 3rem;
@@ -123,20 +78,16 @@ body {
   transition: all .2s;
   position: relative;
   font-size: 1.0rem; }
-
-.btn--white {
+.btn--black {
   background-color: #000;
   color: #777;
   border-radius: 1rem; }
-
 .btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
-
 .btn:active {
   transform: translateY(-1px);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
-
 .btn::after {
   content: "";
   display: inline-block;
@@ -148,14 +99,56 @@ body {
   left: 0;
   z-index: -1;
   transition: all .4s; }
-
-.btn--white::after {
+.btn--black::after {
   background-color: #000; }
-
 .btn:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0; }
-
 .btn--animated {
   animation: moveInBottom 1s ease-out .75s;
   animation-fill-mode: backwards; }
+
+.showcase {
+  min-height: 300px;
+  position: relative;
+  background: #6B8E23; }
+
+.latest-donor {
+  background: #fff;
+  color: #fff;
+  min-height: 500px;
+  text-align: center;
+  border: 1px solid #6B8E23; }
+  .latest-donor .donor-card img {
+    margin-top: -50px; }
+  .latest-donor .donor-card .card:hover {
+    background: #2F4F4F;
+    color: #000; }
+
+#boxes {
+  border: solid 1px #6B8E23;
+  color: #6B8E23; }
+
+#faq {
+  min-height: 220px;
+  background: #343a40;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  width: 100%;
+  border: solid 1px #6B8E23; }
+
+.sign-up {
+  min-height: 300px;
+  background: #2F4F4F;
+  color: #fff;
+  text-align: center; }
+  .sign-up .form-control {
+    height: 45px; }
+
+.footer {
+  min-height: 200px; }
+  .footer .footer-heading {
+    text-align: center;
+    font-size: 30px;
+    color: #2F4F4F; }

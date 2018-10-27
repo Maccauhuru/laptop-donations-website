@@ -6,7 +6,7 @@ const Header =() => {
                 <span className="header-primary--main">Laptop Donations</span>
                 <span className="header-primary--sub">Empowering the world daily</span>
             </h1>
-            <a href="#" className="btn btn-dark btn--white btn--animated mt-3">Start Your Journey</a>
+            <a href="#" className="btn btn-dark btn--black btn--animated mt-3">Start Your Journey</a>
         </div>
     </header>
     );
